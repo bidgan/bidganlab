@@ -42,7 +42,7 @@ namespace c_
                 }
                 else
                 {
-                    Console.WriteLine("Ошибка.Введите число!");
+                    Console.WriteLine("Ошибка?,Введите число!");
                     Console.ReadKey();
                     break;
                 }

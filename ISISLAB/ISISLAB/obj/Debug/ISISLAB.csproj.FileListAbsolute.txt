@@ -1,0 +1,6 @@
+C:\Users\vabkh\source\repos\ISISLAB\ISISLAB\bin\Debug\ISISLAB.exe.config
+C:\Users\vabkh\source\repos\ISISLAB\ISISLAB\bin\Debug\ISISLAB.exe
+C:\Users\vabkh\source\repos\ISISLAB\ISISLAB\bin\Debug\ISISLAB.pdb
+C:\Users\vabkh\source\repos\ISISLAB\ISISLAB\obj\Debug\ISISLAB.csproj.CoreCompileInputs.cache
+C:\Users\vabkh\source\repos\ISISLAB\ISISLAB\obj\Debug\ISISLAB.exe
+C:\Users\vabkh\source\repos\ISISLAB\ISISLAB\obj\Debug\ISISLAB.pdb

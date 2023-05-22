@@ -66,6 +66,16 @@ namespace c_
                     Console.WriteLine("Результат: " + answ);
 
                 }
+                if (sn != 0)
+                {
+                    answ = fn / sn;
+
+                }
+                else
+                {
+                    Console.WriteLine("Ошибка ");
+
+                }
 
                 Console.WriteLine("Совершить еще одну операцию?");
                 cont = Convert.ToString(Console.ReadLine());

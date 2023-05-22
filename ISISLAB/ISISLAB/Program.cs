@@ -31,7 +31,7 @@ namespace c_
                     break;
                 }
 
-                Console.WriteLine("Действие %, *, /, +, - : ");
+                Console.WriteLine("Действие %, *, /, +, - , ^ : ");
                 o = Convert.ToString(Console.ReadLine());
 
                 Console.WriteLine("Второе число: ");
@@ -42,12 +42,18 @@ namespace c_
                 }
                 else
                 {
-                    Console.WriteLine("Ошибка.Введите число!");
+                    Console.WriteLine("Ошибка?,Введите число!");
                     Console.ReadKey();
                     break;
                 }
 
+                if (o == "^")
+                {
 
+                    answ = Math.Pow(fn, sn);
+                    Console.WriteLine("Результат: " + answ);
+
+                }
 
                 if (o == "+")
                 {

@@ -5,6 +5,7 @@ namespace c_
     class Program
     {
         static void Main(string[] args)
+            
         {
 
             string cont;
@@ -19,6 +20,7 @@ namespace c_
                 bool validInput;
 
                 Console.Clear();
+                Console.WriteLine("Добро пожаловать в калькулятор! ");
                 Console.WriteLine("Первое число: ");
                 if (double.TryParse(Console.ReadLine(),out fn))
                 {
@@ -106,9 +108,13 @@ namespace c_
                 }
 
                 Console.WriteLine("Совершить еще одну операцию?");
+               
+                
                 cont = Convert.ToString(Console.ReadLine());
 
             } while (cont == "yes");
+            Console.WriteLine("Спасибо за использование калькулятора! ");
+            Console.ReadKey();
 
         }
     }

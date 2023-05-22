@@ -16,16 +16,38 @@ namespace c_
                 double sn;
                 string o;
                 double answ;
+                bool validInput;
 
                 Console.Clear();
                 Console.WriteLine("Первое число: ");
-                fn = Convert.ToDouble(Console.ReadLine());
+                if (double.TryParse(Console.ReadLine(),out fn))
+                {
+                    validInput = true;
+                }
+                else
+                {
+                    Console.WriteLine("Ошибка.Введите число!");
+                    Console.ReadKey();
+                    break;
+                }
 
                 Console.WriteLine("Действие %, *, /, +, - : ");
                 o = Convert.ToString(Console.ReadLine());
 
                 Console.WriteLine("Второе число: ");
-                sn = Convert.ToDouble(Console.ReadLine());
+
+                if (double.TryParse(Console.ReadLine(), out sn))
+                {
+                    validInput = true;
+                }
+                else
+                {
+                    Console.WriteLine("Ошибка.Введите число!");
+                    Console.ReadKey();
+                    break;
+                }
+
+
 
                 if (o == "+")
                 {
@@ -64,6 +86,16 @@ namespace c_
 
                     answ = fn % sn;
                     Console.WriteLine("Результат: " + answ);
+
+                }
+                if (sn != 0)
+                {
+                    answ = fn / sn;
+
+                }
+                else
+                {
+                    Console.WriteLine("Ошибка ");
 
                 }
 
